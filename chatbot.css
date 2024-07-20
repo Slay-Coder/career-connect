@@ -1,0 +1,80 @@
+/* Chatbot button styling */
+#chatBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #090909;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  /* Chatbot container styling */
+  #chatContainer {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 220px;
+    height: 300px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  /* Chat messages styling */
+  .chatMsg {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+  }
+  
+  /* User message styling */
+  .userMsg {
+    background-color: #e7f3fe;
+    text-align: right;
+  }
+  
+  /* Chatbot message styling */
+  .botMsg {
+    background-color: #cfe2f3;
+  }
+  
+  /* Chat input styling */
+  #chatInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+  }
+  
+  /* Link styling */
+  .chatMsg a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Link hover effect */
+  .chatMsg a:hover {
+    color: #0056b3;
+  }
+  
+  /* Placeholder styling */
+  #chatInput::placeholder {
+    color: #aaa;
+  }
+  
+  /* Remove input outline on focus */
+  #chatInput:focus {
+    outline: none;
+  }
